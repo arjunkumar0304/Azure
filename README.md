@@ -11,25 +11,14 @@
 * A **geographical location** where Microsoft has one or more data centers.
 * Examples: **Central India, East US, West Europe**.
 
-**Interview line:**
 
-> An Azure Region is a geographical area containing data centers for deploying resources.
-
----
 
 #### Availability Zones (AZ)
 
 * **Physically separate data centers** within the same region.
 * Each zone has independent **power, cooling, and networking**.
 
-**Why important?**
-Provides **high availability** and **fault tolerance**.
 
-**Interview line:**
-
-> Availability Zones protect applications from data center failures.
-
----
 
 #### Resource Group
 
@@ -39,11 +28,7 @@ Provides **high availability** and **fault tolerance**.
 **Real‑world example:**
 Like a folder that contains all files related to one project.
 
-**Interview line:**
 
-> A Resource Group is used to manage related Azure resources together.
-
----
 
 ### 1.2 Azure Resource Manager (ARM)
 
@@ -57,11 +42,6 @@ Like a folder that contains all files related to one project.
 * Tagging
 * Consistent deployments
 
-**Interview line:**
-
-> Azure Resource Manager is the deployment and management service for Azure resources.
-
----
 
 ### 1.3 Azure Compute Options
 
@@ -72,7 +52,6 @@ Like a folder that contains all files related to one project.
 
 **Use case:** Running custom applications, legacy software.
 
----
 
 #### Azure App Services
 
@@ -81,7 +60,7 @@ Like a folder that contains all files related to one project.
 
 **Benefit:** Developer focuses only on code.
 
----
+
 
 #### Containers
 
@@ -90,7 +69,6 @@ Like a folder that contains all files related to one project.
 
 **Tools:** Docker, Kubernetes.
 
----
 
 #### Azure Functions
 
@@ -113,9 +91,6 @@ Like a folder that contains all files related to one project.
 
 **Example:** Azure Virtual Machines.
 
-**Interview line:**
-
-> IaaS provides virtualized computing resources over the internet.
 
 ---
 
@@ -126,11 +101,7 @@ Like a folder that contains all files related to one project.
 
 **Examples:** Azure App Services, Azure SQL Database.
 
-**Interview line:**
 
-> PaaS allows developers to build applications without managing infrastructure.
-
----
 
 #### SaaS (Software as a Service)
 
@@ -139,9 +110,6 @@ Like a folder that contains all files related to one project.
 
 **Examples:** Microsoft 365, Dynamics 365.
 
-**Interview line:**
-
-> SaaS provides fully managed software applications to end users.
 
 ---
 
@@ -151,11 +119,7 @@ Like a folder that contains all files related to one project.
 * **Private Cloud:** Dedicated to a single organization.
 * **Hybrid Cloud:** Combination of public and private cloud.
 
-**Interview line:**
 
-> Hybrid cloud combines on‑premises infrastructure with public cloud services.
-
----
 
 ### 2.3 CapEx vs OpEx
 
@@ -169,9 +133,6 @@ Like a folder that contains all files related to one project.
 * Pay‑as‑you‑go model.
 * No upfront hardware cost.
 
-**Interview line:**
-
-> Cloud computing follows the OpEx model, reducing capital expenses.
 
 ---
 
@@ -198,9 +159,6 @@ Like a folder that contains all files related to one project.
 * **Vertical Scaling:** Increase CPU/RAM.
 * **Horizontal Scaling:** Add more VMs.
 
-**Interview line:**
-
-> Scaling helps applications handle increasing workloads efficiently.
 
 ---
 
